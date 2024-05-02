@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-opencv": ["../src/index"],
+      "expo-opencv/*": ["../src/*"]
+    }
+  }
+}
