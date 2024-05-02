@@ -1,11 +1,11 @@
 # Expo OpenCV
-An Expo module which exposes native OpenCV API's
+An Expo module which exposes native OpenCV API's.
 
-To learn how Expo modules work visit the [Expo Modules API Docs](https://docs.expo.dev/modules/overview/)
+To learn how Expo modules work visit the [Expo Modules API Docs](https://docs.expo.dev/modules/overview/).
 
 ## What has been done?
 
-So far the project has been initialized using the [create a new module with and example project](https://docs.expo.dev/modules/get-started/#creating-a-new-module-with-an-example-project)
+So far the project has been initialized using the [create a new module with and example project](https://docs.expo.dev/modules/get-started/#creating-a-new-module-with-an-example-project).
 
 ```
 npx create-expo-module expo-opencv
@@ -18,7 +18,7 @@ cd open-cv
 npm run open:android
 ```
 
-I downloaded [OpenCV - 4.8.0 for Android](https://github.com/opencv/opencv/releases/download/4.8.0/opencv-4.8.0-android-sdk.zip)
+I downloaded [OpenCV - 4.8.0 for Android](https://github.com/opencv/opencv/releases/download/4.8.0/opencv-4.8.0-android-sdk.zip).
 
 I then followed the directions commented in the `/OpenCV-android-sdk/sdk/build.grade` file of the Android Download. This included:
 
@@ -42,7 +42,7 @@ dependencies {
 }
 ```
 
-I also tried making sure the **compileSdkVersion, buildToolsVersion, minSdkVersion, targetSdkVersion** matched in both the `/android/build.gradle` and the `/android/opencv/build.gradle`
+I also tried making sure the **compileSdkVersion, buildToolsVersion, minSdkVersion, targetSdkVersion** matched in both the `/android/build.gradle` and the `/android/opencv/build.gradle`.
 
 ## The Problem
 
